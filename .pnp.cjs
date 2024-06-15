@@ -33,6 +33,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:7.34.2"],\
           ["eslint-plugin-react-hooks", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:4.6.2"],\
           ["eslint-plugin-react-refresh", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:0.4.7"],\
+          ["query-string", "npm:9.0.0"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:18.3.1"],\
           ["react-router-dom", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:6.23.1"],\
@@ -1589,6 +1590,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["decode-uri-component", [\
+      ["npm:0.4.1", {\
+        "packageLocation": "../../../../../../home/bladimir/.yarn/berry/cache/decode-uri-component-npm-0.4.1-61db093ef6-10c0.zip/node_modules/decode-uri-component/",\
+        "packageDependencies": [\
+          ["decode-uri-component", "npm:0.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["deep-is", [\
       ["npm:0.1.4", {\
         "packageLocation": "../../../../../../home/bladimir/.yarn/berry/cache/deep-is-npm-0.1.4-88938b5a67-10c0.zip/node_modules/deep-is/",\
@@ -2157,6 +2167,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["filter-obj", [\
+      ["npm:5.1.0", {\
+        "packageLocation": "../../../../../../home/bladimir/.yarn/berry/cache/filter-obj-npm-5.1.0-a1ae61a7db-10c0.zip/node_modules/filter-obj/",\
+        "packageDependencies": [\
+          ["filter-obj", "npm:5.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["find-up", [\
       ["npm:5.0.0", {\
         "packageLocation": "../../../../../../home/bladimir/.yarn/berry/cache/find-up-npm-5.0.0-e03e9b796d-10c0.zip/node_modules/find-up/",\
@@ -2491,6 +2510,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:7.34.2"],\
           ["eslint-plugin-react-hooks", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:4.6.2"],\
           ["eslint-plugin-react-refresh", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:0.4.7"],\
+          ["query-string", "npm:9.0.0"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:18.3.1"],\
           ["react-router-dom", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:6.23.1"],\
@@ -3587,6 +3607,18 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["query-string", [\
+      ["npm:9.0.0", {\
+        "packageLocation": "../../../../../../home/bladimir/.yarn/berry/cache/query-string-npm-9.0.0-3f8486c724-10c0.zip/node_modules/query-string/",\
+        "packageDependencies": [\
+          ["query-string", "npm:9.0.0"],\
+          ["decode-uri-component", "npm:0.4.1"],\
+          ["filter-obj", "npm:5.1.0"],\
+          ["split-on-first", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["queue-microtask", [\
       ["npm:1.2.3", {\
         "packageLocation": "../../../../../../home/bladimir/.yarn/berry/cache/queue-microtask-npm-1.2.3-fcc98e4e2d-10c0.zip/node_modules/queue-microtask/",\
@@ -3980,6 +4012,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../home/bladimir/.yarn/berry/cache/source-map-js-npm-1.2.0-6e63f357e5-10c0.zip/node_modules/source-map-js/",\
         "packageDependencies": [\
           ["source-map-js", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["split-on-first", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../../../../../home/bladimir/.yarn/berry/cache/split-on-first-npm-3.0.0-3b993e48ae-10c0.zip/node_modules/split-on-first/",\
+        "packageDependencies": [\
+          ["split-on-first", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
