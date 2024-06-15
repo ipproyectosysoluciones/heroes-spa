@@ -21,8 +21,8 @@ export const HeroPage = () => {
     <div className="row mt-5">
       <div className="col-4">
         <img
-          className="img-thumbnail"
-          src={ `/assets/heroes/${ id }.jpg` }
+          className="img-thumbnail animate__animated animate__fadeInLeft"
+          src={`/assets/heroes/${id}.jpg`}
           alt={ hero.superhero }
         />
       </div>
@@ -41,14 +41,11 @@ export const HeroPage = () => {
             <strong>First Appearance:</strong> { hero.first_appearance }
           </li>
         </ul>
-          
+
         <h5 className="mt-3">Characters</h5>
         <p>{ hero.characters }</p>
 
-        <button
-          className="btn btn-outline-primary"
-          onClick={ onNavigateBack }
-        >
+        <button className="btn btn-outline-primary" onClick={ onNavigateBack }>
           Regresar
         </button>
       </div>
