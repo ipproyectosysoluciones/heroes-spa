@@ -22,9 +22,7 @@ export const AuthProvider = ({ children }) => {
   const [ authState, dispatch ] = useReducer( authReducer, {}, init );
 
   const login = ( name = '' ) => {
-
     const user = { id: 'ABC', name };
-
     const action = {
       type: types.login,
       payload: user,
@@ -34,12 +32,23 @@ export const AuthProvider = ({ children }) => {
 
     dispatch( action );
   };
+
+  const logout = () => {
+    localStorage.removeItem( 'user' );
+    const action = {
+      type: types.logout
+    };
+    dispatch( action );
+  };
   
 
   return (
     <AuthContext.Provider value={{
       ...authState,
-      login
+
+      // Methods
+      login,
+      logout,
     }}>
       { children }
     </AuthContext.Provider>
