@@ -5,14 +5,14 @@ import { AuthContext } from '../../auth/context/AuthContext';
 export const Navbar = () => {
 
   const { user, logout } = useContext( AuthContext );
-  const { pathname, search } = useLocation();
+  // const { pathname, search } = useLocation();
 
   const navigate = useNavigate();
 
   const onLogout = () => {
 
-    const lastPath = pathname + search;
-    localStorage.setItem( 'lastPath', lastPath );
+    // const lastPath = pathname + search;
+    // localStorage.setItem( 'lastPath', lastPath );
 
     logout();
     navigate('/login', {
