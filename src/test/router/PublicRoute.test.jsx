@@ -18,7 +18,7 @@ describe("Pruebas en <PublicRoute />", () => {
       </AuthContext.Provider>
     );
 
-    expect(screen.getByText( 'Ruta pública' )).toBeTruthy();
+    expect(screen.getByText( 'Ruta Pública' )).toBeTruthy();
   });
 
   test("Debe de navegar si esta autenticado", () => {
