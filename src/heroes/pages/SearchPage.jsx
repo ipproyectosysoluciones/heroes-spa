@@ -40,7 +40,7 @@ export const SearchPage = () => {
           <h4>Searching</h4>
           <hr />
 
-          <form onSubmit={onSearchSubmit}>
+          <form onSubmit={onSearchSubmit} role="form">
             <input
               type="text"
               className="form-control"
@@ -76,6 +76,7 @@ export const SearchPage = () => {
           </div>
 
           <div
+            aria-label="alert-danger"
             className="alert alert-danger animate__animated animate__fadeIn"
             style={{
               display: showError ? "" : "none",

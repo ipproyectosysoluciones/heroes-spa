@@ -41,6 +41,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:7.34.2"],\
           ["eslint-plugin-react-hooks", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:4.6.2"],\
           ["eslint-plugin-react-refresh", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:0.4.7"],\
+          ["identity-obj-proxy", "npm:3.0.0"],\
           ["jest", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:29.7.0"],\
           ["jest-environment-jsdom", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:29.7.0"],\
           ["query-string", "npm:9.0.0"],\
@@ -6141,6 +6142,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["harmony-reflect", [\
+      ["npm:1.6.2", {\
+        "packageLocation": "../../../../../../home/bladimir/.yarn/berry/cache/harmony-reflect-npm-1.6.2-47a9f53361-10c0.zip/node_modules/harmony-reflect/",\
+        "packageDependencies": [\
+          ["harmony-reflect", "npm:1.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["has-bigints", [\
       ["npm:1.0.2", {\
         "packageLocation": "../../../../../../home/bladimir/.yarn/berry/cache/has-bigints-npm-1.0.2-52732e614d-10c0.zip/node_modules/has-bigints/",\
@@ -6234,6 +6244,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:7.34.2"],\
           ["eslint-plugin-react-hooks", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:4.6.2"],\
           ["eslint-plugin-react-refresh", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:0.4.7"],\
+          ["identity-obj-proxy", "npm:3.0.0"],\
           ["jest", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:29.7.0"],\
           ["jest-environment-jsdom", "virtual:43509b5cfdd7132145fca4ac700a71785c21c77f249684766208c7074d0433029478b198c87f090a6a50b399de450b07282604f44c5b6af843efd3623f3ed5ca#npm:29.7.0"],\
           ["query-string", "npm:9.0.0"],\
@@ -6330,6 +6341,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["iconv-lite", "npm:0.6.3"],\
           ["safer-buffer", "npm:2.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["identity-obj-proxy", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../../../../../home/bladimir/.yarn/berry/cache/identity-obj-proxy-npm-3.0.0-080ab9ac1e-10c0.zip/node_modules/identity-obj-proxy/",\
+        "packageDependencies": [\
+          ["identity-obj-proxy", "npm:3.0.0"],\
+          ["harmony-reflect", "npm:1.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\

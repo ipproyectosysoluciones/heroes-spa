@@ -1,4 +1,4 @@
-import { types } from "../../../auth";
+import { types } from '../../../src/auth/types/types';
 
 
 

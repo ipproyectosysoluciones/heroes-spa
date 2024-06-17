@@ -1,8 +1,8 @@
 
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import { AuthContext } from '../../auth';
-import { AppRouter } from '../../router/AppRouter';
+import { AuthContext } from '../../src/auth';
+import { AppRouter } from '../../src/router/AppRouter';
 
 describe('Pruebas en <AppRouter />', () => {
   
@@ -22,7 +22,7 @@ describe('Pruebas en <AppRouter />', () => {
 
     expect( screen.getAllByText( 'Login' ).length ).toBe( 2 );
 
-    screen.debug();
+    // screen.debug();
   });
 
   test('Debe mostrar el componente Marvel si esta autenticado', () => {
@@ -45,6 +45,6 @@ describe('Pruebas en <AppRouter />', () => {
 
     expect( screen.getAllByText( 'Marvel' ).length ).toBeGreaterThanOrEqual( 1 );
 
-        screen.debug();
+    // screen.debug();
   });
 });

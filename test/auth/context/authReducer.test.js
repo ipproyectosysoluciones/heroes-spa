@@ -1,5 +1,5 @@
 
-import { authReducer, types } from '../../../auth';
+import { authReducer, types } from '../../../src/auth';
 
 describe('Pruebas en el authReducer', () => {
   
